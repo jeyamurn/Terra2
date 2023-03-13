@@ -13,7 +13,7 @@ provider "aws" {
     region  = "us-east-1"
 }
 
-resource "aws_instance" "TekvChe" {
+resource "aws_instance" {
   ami           = "ami-0948bc30d008b0e5a"
   instance_type = "m5n.large"
   
